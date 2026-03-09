@@ -20,6 +20,30 @@
             android:textSize="18sp"
             android:text="Lifecycle Log aparecerá aqui" />
 
+        <Button
+            android:id="@+id/btnIncrementar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Incrementar" />
+
+        <Button
+            android:id="@+id/btnDecrementar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Decrementar" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset" />
+
+        <TextView
+            android:id="@+id/tvContador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

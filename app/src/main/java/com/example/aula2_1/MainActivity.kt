@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // Inicializar views
+        tvLog = findViewById(R.id.tvLog)
         tvContador = findViewById(R.id.tvContador)
         btnIncrementar = findViewById(R.id.btnIncrementar)
         btnDecrementar = findViewById(R.id.btnDecrementar)
